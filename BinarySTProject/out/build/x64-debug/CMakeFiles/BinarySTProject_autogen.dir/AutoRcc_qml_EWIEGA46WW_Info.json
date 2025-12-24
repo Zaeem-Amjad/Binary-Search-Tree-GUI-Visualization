@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "C:/Users/user/Downloads/DSA/project/BinarySTProject/out/build/x64-debug/BinarySTProject_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/user/Downloads/DSA/project/BinarySTProject/out/build/x64-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/user/Downloads/DSA/project/BinarySTProject/out/build/x64-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/user/Downloads/DSA/project/BinarySTProject",
+	"CMAKE_SOURCE_DIR" : "C:/Users/user/Downloads/DSA/project/BinarySTProject",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/Users/user/Downloads/DSA/project/BinarySTProject/out/build/x64-debug/BinarySTProject_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/user/Downloads/DSA/project/BinarySTProject/qml/TreeOperationsPage.qml",
+		"C:/Users/user/Downloads/DSA/project/BinarySTProject/qml/TreeCanvas.qml",
+		"C:/Users/user/Downloads/DSA/project/BinarySTProject/qml/main.qml",
+		"C:/Users/user/Downloads/DSA/project/BinarySTProject/qml/WelcomePage.qml"
+	],
+	"LOCK_FILE" : "C:/Users/user/Downloads/DSA/project/BinarySTProject/out/build/x64-debug/CMakeFiles/BinarySTProject_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.10.1/msvc2022_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/user/Downloads/DSA/project/BinarySTProject/out/build/x64-debug/CMakeFiles/BinarySTProject_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/user/Downloads/DSA/project/BinarySTProject/qml.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/BinarySTApp">
+        <file>qml/main.qml</file>
+        <file>qml/WelcomePage.qml</file>
+        <file>qml/TreeOperationsPage.qml</file>
+        <file>qml/TreeCanvas.qml</file>
+    </qresource>
+</RCC>

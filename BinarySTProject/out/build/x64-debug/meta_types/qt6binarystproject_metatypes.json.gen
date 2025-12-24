@@ -1,0 +1,222 @@
+[
+    {
+        "classes": [
+            {
+                "className": "TreeManager",
+                "lineNumber": 12,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "type",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 5,
+                        "lineNumber": 23,
+                        "name": "setTreeType",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "key",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 24,
+                        "name": "insertNode",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "key",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 7,
+                        "lineNumber": 25,
+                        "name": "deleteNode",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "key",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 8,
+                        "lineNumber": 26,
+                        "name": "searchNode",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "lineNumber": 27,
+                        "name": "getInorderTraversal",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 10,
+                        "lineNumber": 28,
+                        "name": "getPreorderTraversal",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 11,
+                        "lineNumber": 29,
+                        "name": "getPostorderTraversal",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 12,
+                        "lineNumber": 30,
+                        "name": "clearTree",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 13,
+                        "lineNumber": 31,
+                        "name": "getTreeStructure",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "oldValue",
+                                "type": "int"
+                            },
+                            {
+                                "name": "occurrenceIndex",
+                                "type": "int"
+                            },
+                            {
+                                "name": "newValue",
+                                "type": "int"
+                            },
+                            {
+                                "name": "mode",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 14,
+                        "lineNumber": 32,
+                        "name": "updateNode",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "oldValue",
+                                "type": "int"
+                            },
+                            {
+                                "name": "occurrenceIndex",
+                                "type": "int"
+                            },
+                            {
+                                "name": "newValue",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 15,
+                        "isCloned": true,
+                        "lineNumber": 32,
+                        "name": "updateNode",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 15,
+                        "name": "currentTreeType",
+                        "notify": "currentTreeTypeChanged",
+                        "read": "currentTreeType",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "TreeManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 35,
+                        "name": "currentTreeTypeChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 36,
+                        "name": "treeUpdated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "key",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 37,
+                        "name": "nodeInserted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "key",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 38,
+                        "name": "nodeDeleted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 39,
+                        "name": "treeCleared",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "TreeManager.h",
+        "outputRevision": 69
+    }
+]

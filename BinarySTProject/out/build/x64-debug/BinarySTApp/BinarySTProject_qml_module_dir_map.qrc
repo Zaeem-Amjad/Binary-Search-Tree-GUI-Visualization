@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/BinarySTApp">C:/Users/user/Downloads/DSA/project/BinarySTProject/out/build/x64-debug/BinarySTApp</file>
+
+  </qresource>
+</RCC>

@@ -1,0 +1,8 @@
+module BinarySTApp
+typeinfo BinarySTProject.qmltypes
+prefer :/BinarySTApp/
+WelcomePage 1.0 qml/WelcomePage.qml
+TreeOperationsPage 1.0 qml/TreeOperationsPage.qml
+TreeCanvas 1.0 qml/TreeCanvas.qml
+depends QtQuick
+
